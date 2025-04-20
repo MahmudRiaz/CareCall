@@ -313,7 +313,7 @@ export class MemStorage implements IStorage {
       fullName: "Mary Doe",
       role: "family",
       hospital: null,
-      relatedPatientId: 1, // Related to John Doe
+      relatedPatientId: 1, // Related to Margaret Smith
       contactPhone: "(555) 987-6543",
       contactEmail: "mary.doe@example.com",
       relationship: "daughter"
@@ -324,7 +324,7 @@ export class MemStorage implements IStorage {
     // Add a sample patient
     const patient1: Patient = {
       id: this.currentId.patients++,
-      name: "John Doe",
+      name: "Margaret Smith",
       initials: "JD",
       mrn: "432765",
       age: 78,
@@ -343,7 +343,7 @@ export class MemStorage implements IStorage {
     // Add another sample patient
     const patient2: Patient = {
       id: this.currentId.patients++,
-      name: "Margaret Smith",
+      name: "Helena Eagan",
       initials: "MS",
       mrn: "432766",
       age: 82,
@@ -396,7 +396,7 @@ export class MemStorage implements IStorage {
         {
           id: 2,
           speaker: "Patient",
-          speakerName: "John Doe",
+          speakerName: "Margaret Smith",
           text: "I'm not doing so well today. My breathing feels a bit difficult, especially when I try to walk to the kitchen."
         },
         {
@@ -408,7 +408,7 @@ export class MemStorage implements IStorage {
         {
           id: 4,
           speaker: "Patient",
-          speakerName: "John Doe",
+          speakerName: "Margaret Smith",
           text: "Yes, I managed to get dressed, but it took me longer than usual. I felt a bit dizzy when I bent down to put on my socks.",
           highlightType: "yellow"
         },
@@ -421,7 +421,7 @@ export class MemStorage implements IStorage {
         {
           id: 6,
           speaker: "Patient",
-          speakerName: "John Doe",
+          speakerName: "Margaret Smith",
           text: "I haven't eaten yet today. I don't feel like cooking and it's hard to stand for that long. I might just have some crackers later.",
           highlightType: "red"
         },
@@ -434,7 +434,7 @@ export class MemStorage implements IStorage {
         {
           id: 8,
           speaker: "Patient",
-          speakerName: "John Doe",
+          speakerName: "Margaret Smith",
           text: "I took my heart pill, but I'm not sure about the water pill. I might have forgotten that one. There are so many to keep track of.",
           highlightType: "yellow"
         },
@@ -447,7 +447,7 @@ export class MemStorage implements IStorage {
         {
           id: 10,
           speaker: "Patient",
-          speakerName: "John Doe",
+          speakerName: "Margaret Smith",
           text: "Yes, my ankles are quite swollen today, more than usual. And my shoes feel tight. Is that bad?",
           highlightType: "red"
         }
